@@ -278,3 +278,66 @@ address {
   text-decoration: none;
   border-bottom: 1px solid #000000;
 }
+
+.about {
+  display: grid;
+  grid-template-columns: 240px 693px;
+  gap: 72px;
+  padding: 120px 24px 180px;
+}
+
+.about__column {
+  min-width: 0;
+}
+
+
+.about__column_logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 35px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000000;
+  flex-shrink: 0;
+}
+
+.about__logo-image {
+  width: 136px;
+  height: auto;
+}
+
+
+.about__column_text {
+  padding-top: 3px;
+}
+
+.about__title {
+  margin: 0 0 100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.about__text p {
+  margin: 0;
+}
