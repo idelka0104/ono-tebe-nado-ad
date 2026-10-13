@@ -341,3 +341,75 @@ address {
 .about__text p {
   margin: 0;
 }
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: start;
+  padding: 0 50px 82px;
+}
+
+
+.footer__address {
+  justify-self: start;
+  max-width: 265px;
+}
+
+.footer__address .address__link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer__address .address__text {
+  line-height: 1.35;
+}
+
+
+.footer__menu {
+  justify-self: center;
+  text-align: center;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+
+.footer__social-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+}
+
+.footer__social-list-item {
+  display: flex;
+}
+
+.footer__social-link {
+  display: block;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+  display: block;
+}
